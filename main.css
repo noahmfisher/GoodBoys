@@ -6,7 +6,7 @@
     html {
       overflow-y: scroll;
     }
-    
+
     .logo {
       -webkit-touch-callout: none;
       -webkit-user-select: none;
@@ -118,4 +118,11 @@
     }
     .animation .f {
         animation:spin 6s linear -.8s infinite;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        #carou {
+            height:90vh;
+        }
     }
