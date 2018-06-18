@@ -30,6 +30,10 @@
       padding: 1em;
     }
 
+    .gbdet {
+      text-align:center;
+    }
+
     .artist h3 {
       margin: 0em 0em 1em 0em;
       text-align:center;
@@ -118,11 +122,4 @@
     }
     .animation .f {
         animation:spin 6s linear -.8s infinite;
-    }
-
-
-    @media only screen and (max-width: 600px) {
-        #carou {
-            height:90vh;
-        }
     }
