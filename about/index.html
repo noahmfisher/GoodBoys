@@ -83,6 +83,35 @@
         top:18px;
       }
 
+      @keyframes spin {
+          from {transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg)}
+          to {transform:rotateX(360deg) rotateY(360deg) rotateZ(360deg)}
+      }
+
+      .animation .n,  .animation .m, .animation .f {
+          display: inline-block;
+      }
+
+      .animation {
+          animation:spin 12s linear reverse infinite;
+          display: inline-block;
+          font-size: 30px;
+          position: fixed;
+          right:1vw;
+          bottom:2vh;
+          transform-style: preserve-3d;
+          font-weight: bold;
+      }
+
+      .animation .n {
+          animation:spin 6s linear -.4s infinite;
+      }
+      .animation .m {
+          animation:spin 6s linear -1.8s infinite;
+      }
+      .animation .f {
+          animation:spin 6s linear -.8s infinite;
+      }
     </style>
   </head>
   <body>
@@ -119,9 +148,14 @@
 		  <div class="col-lg-3 col-md-3"></div>
 		  <div class="col-lg-6 col-md-6 col-sm-6 gbdet rounded">
         <h3>About</h3>
-        <p>Collective of good boys based in Baltimore, Atlanta, and Tokyo. Worldwide.</p>
+        <p style="text-align:center;">Collective of good boys based in Baltimore, Atlanta, and Tokyo. Worldwide.<br />Website by <a href="https://noahmfisher.github.io/">Noah Fisher</a>.</p>
 		  </div>
 		</div>
+    <div class="animation">
+        <span class="n">n</span>
+        <span class="m">m</span>
+        <span class="f">f</span>
+    </div>
 	</div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
