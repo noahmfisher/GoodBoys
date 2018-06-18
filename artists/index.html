@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 
-    <title>goodboys.</title>
+    <title>goodboys. - artists.</title>
 
     <style>
       *{
@@ -32,41 +32,55 @@
         margin-bottom: 0;
       }
       .gbdet {
-        box-shadow: 0px 0px 3px gray;
+        /* box-shadow: 0px 0px 3px gray; */
         padding:5px;
 		transition: ease 500ms;
       }
-      
+
       .gbdet:hover {
         box-shadow: 0px 0px 3px black;
       }
-      
+
       .artist {
           margin:1em 0 1em 0;
 		  padding: 1em;
       }
-      
+
       .artist h3 {
           text-align:center;
       }
-      
+
       .artistpic {
           width:25%;
           display: inline-block;
           float:left;
           margin:0 1em 0 0;
       }
-	  
+
 	  .song {
 	  text-align:center;
 	  }
-	  
+
 	  .cover {
 		  width:30%;
           box-shadow: 0px 0px 1px black;
 		  float:left;
 		  margin-right: 1em;
 	  }
+
+    .muslink {
+      width:2em;
+      margin:1em .5em 0 .5em;
+    }
+
+    .vl {
+      border-left: 1px solid gray;
+      height: 1.5em;
+      margin:0em .1em 0 .2em;
+      display:inline-block;
+      position: relative;
+      top:18px;
+    }
 
     </style>
   </head>
@@ -82,16 +96,16 @@
 			<div class="collapse navbar-collapse" id="navbarText">
 			  <ul class="navbar-nav mr-auto">
 				<li class="nav-time">
-				  <a class="nav-link" href="http://goodboy.camp/">Home</a>
+				  <a class="nav-link" href="../">Home</a>
 				</li>
 				<li class="nav-time">
-					<a class="nav-link" href="http://goodboy.camp/mm">Mixed Media</a>
+					<a class="nav-link" href="#">Mixed Media</a>
 				</li>
 				<li class="nav-time active">
-					<a class="nav-link" href="#">Artists<span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="artists/index.html">Artists<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-time">
-					<a class="nav-link" href="http://goodboy.camp/about">About</a>
+					<a class="nav-link" href="#">About</a>
 				</li>
 			  </ul>
 			</div>
@@ -103,14 +117,28 @@
 			<h3>Grandma</h3>
 			<p><img class="artistpic rounded" src="https://i1.sndcdn.com/avatars-000425109714-sm1b24-original.jpg"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus iaculis sed velit ut blandit. Nam efficitur scelerisque gravida. Nullam ut fringilla tortor, sodales volutpat nibh. In vel justo non neque sodales hendrerit. Integer at urna ut urna maximus sollicitudin quis vel elit.
 			<br /><br />Production inquiries/booking:  <a href="mailto:atlgrandmother@gmail.com">atlgrandmother@gmail.com</a></p>
-			<div class="song"><a href="https://geo.itunes.apple.com/us/artist/grandma/1279109226?mt=1&app=music" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/music-lrg.svg) no-repeat;width:158px;height:45px;background-size:contain;"></a><a href="https://geo.itunes.apple.com/us/artist/grandma/1279109226?mt=1&app=music" style="display:inline-block;overflow:hidden;background:url(https://i.imgur.com/RY5Dpo8.png) 100% 100% no-repeat;width:120px;height:45px;background-size:contain;"></a></div>
+  			<div class="song">
+          <img class="muslink" src="../img/ig.svg" />
+          <img class="muslink" src="../img/twitter.svg" />
+          <div class="vl"></div>
+          <img class="muslink" src="../img/applemusic.svg" />
+          <img class="muslink" src="../img/spotify.svg" />
+          <img class="muslink" src="../img/soundcloud.svg" />
+        </div>
 		  </div>
 		</div>
+    <hr style="width:50%;" />
 		<div class="row">
 		  <div class="col-lg-3 col-md-3"></div>
 		  <div class="artist col-lg-6 col-md-6 col-sm-6 gbdet rounded">
-			<h3>Goodboy 2</h3>
-			<p><img class="artistpic rounded" src="https://i1.sndcdn.com/avatars-000350943950-9pwwus-original.jpg"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus iaculis sed velit ut blandit. Nam efficitur scelerisque gravida. Nullam ut fringilla tortor, sodales volutpat nibh. In vel justo non neque sodales hendrerit. Integer at urna ut urna maximus sollicitudin quis vel elit.</p>
+			<h3>Ranger Nicc</h3>
+			<p><img class="artistpic rounded" src="https://i1.sndcdn.com/avatars-000350943950-9pwwus-original.jpg"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus iaculis sed velit ut blandit. Nam efficitur scelerisque gravida. Nullam ut fringilla tortor, sodales volutpat nibh. In vel justo non neque sodales hendrerit. Integer at urna ut urna maximus sollicitudin quis vel elit.<br /><br />Production inquiries/booking:  <a href="mailto:rangernicc@gmail.com">rangernicc@gmail.com</a></p>
+  			<div class="song">
+          <img class="muslink" src="../img/ig.svg" />
+          <img class="muslink" src="../img/twitter.svg" />
+          <div class="vl"></div>
+          <img class="muslink" src="../img/soundcloud.svg" />
+        </div>
 		  </div>
 		</div>
 	</div>
