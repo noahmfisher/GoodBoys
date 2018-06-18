@@ -1,0 +1,124 @@
+
+    *{
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    html {
+      overflow-y: scroll;
+    }
+
+    iframe {
+      display:none !important;
+    }
+    .logo {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+    .logo a:link{
+      color: #7f7f7f;
+    }
+    .navbar-toggler {
+      border:0px;
+    }
+
+    .nav-tabs {
+      margin-bottom: 0;
+    }
+
+    .gbdet {
+      /* box-shadow: 0px 0px 3px gray; */
+      transition: ease 500ms;
+      margin:0 0 1em 0;
+      padding: 1em;
+    }
+
+    .artist h3 {
+      margin: 0em 0em 1em 0em;
+      text-align:center;
+    }
+
+    .header {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .header h2 {
+      text-align:center;
+    }
+
+    .header hr {
+      width:100%;
+      height:2px;
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #ccc;
+      margin: 1em 0;
+      padding: 0;
+    }
+
+
+    .artistpic {
+      width:25%;
+      display: inline-block;
+      float:left;
+      margin:0 1em 0 0;
+    }
+
+    .song {
+      text-align:center;
+      clear:left;
+    }
+
+    .cover {
+      width:30%;
+      box-shadow: 0px 0px 1px black;
+      float:left;
+      margin-right: 1em;
+    }
+
+    .muslink {
+      width:2em;
+      margin:1em .5em 0 .5em;
+    }
+
+    .vl {
+      border-left: 1px solid gray;
+      height: 1.5em;
+      margin:0em .1em 0 .2em;
+      display:inline-block;
+      position: relative;
+      top:18px;
+    }
+
+    @keyframes spin {
+        from {transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg)}
+        to {transform:rotateX(360deg) rotateY(360deg) rotateZ(360deg)}
+    }
+
+    .animation .n,  .animation .m, .animation .f {
+        display: inline-block;
+    }
+
+    .animation {
+        animation:spin 12s linear reverse infinite;
+        display: inline-block;
+        font-size: 30px;
+        /* position: fixed;
+        right:48%;
+        top:30%; */
+        transform-style: preserve-3d;
+        font-weight: bold;
+        margin-left: 43%;
+    }
+
+    .animation .n {
+        animation:spin 6s linear -.4s infinite;
+    }
+    .animation .m {
+        animation:spin 6s linear -1.8s infinite;
+    }
+    .animation .f {
+        animation:spin 6s linear -.8s infinite;
+    }
